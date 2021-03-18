@@ -1,0 +1,96 @@
+body{
+	background:url(../img/garden.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	text-align: center;
+    	font-family: 'Lobster', cursive;
+    	margin: 30px;
+    	color: #ee823e;
+    	font-size: xxx-large;
+}
+.container{
+	width: 500px;
+    	margin: 9% 10% 5% 70%;
+}
+.login-section{
+	    margin: 10px 10px 100px 10px;
+}
+.login-section img{
+	width: 200px;
+    	margin: -17px 145px;
+}
+.login-section h2{
+	text-align: center;
+    	text-transform: uppercase;
+    	color: #eabeb7;
+    	margin: 5px;
+}
+.form-control{
+	width: 96%;
+   	height: 24px;
+    	margin: 4px;
+    	padding: 4px;
+    	background-color: #3d52254d;
+    	font-size: 18px;
+    	border-radius: 10px;
+	border-bottom: 1px solid #6e9244;
+}
+::-webkit-input-placeholder{
+	color:white;
+	opacity: 50%;
+}
+.login-btn{
+	margin: 10px auto;
+    	display: block;
+    	background-color: #2dad3187;
+    	text-transform: uppercase;
+    	border: none;
+    	border-radius: 10%;
+    	padding: 10px;
+    	color: aqua;
+    	font-size: 15px;
+	transition: 0.4s ease-in-out;
+}
+.login-btn:hover{
+	cursor: pointer;
+	box-shadow: 3px 3px 5px #ffff;
+}
+.register{
+    	text-align: center;
+    	text-transform: uppercase;
+   	color: #a6c109;
+    	margin: 47px 47px 1px 47px;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 400;
+}
+.reg{
+	color: #ff9800;
+	font-family: 'Josefin Sans', sans-serif;
+	transition: 0.4s ease-in-out;
+}
+.reg:hover{
+	cursor: pointer;
+	box-shadow: 3px 3px 5px #ffff;
+}
+.forget{
+	color: #c6c3a2;
+    	text-align: center;
+    	margin: 0px;
+    	text-transform: uppercase;
+    	font-family: 'Comfortaa', cursive;
+    	font-size: medium;
+}
+.pass{
+	color: #ff9800;
+	font-family: 'Josefin Sans', sans-serif;
+	transition: 0.4s ease-in-out;
+}
+.pass:hover{
+	cursor: pointer;
+	box-shadow: 3px 3px 5px #ffff;
+}
+input{
+	color: white;
+}
